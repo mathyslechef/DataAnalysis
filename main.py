@@ -41,6 +41,8 @@ plt.grid("true")
 plt.bar(x, y)
 plt.show()
 
+# coucou Myriam je vois ton code! Mathys fait caca dans ton jardin
+
 
 
 
