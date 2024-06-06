@@ -42,6 +42,9 @@ plt.bar(x, y)
 plt.show()
 
 print('NOW YOU CAN PULL!')
+print('NOW YOU CAN PULL!')
+print('NOW YOU CAN PULL!')
+print('NOW YOU CAN PULL!')
 
 
 
