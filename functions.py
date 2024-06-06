@@ -5,6 +5,10 @@ def product(a, b):
     return a*b
 
 
+def somme(a: list) -> float:
+    return sum(a)
+
+
 # swap two elements in a list
 def redefine_order_col(list_col: list, to_switch: list) -> list:
     first = to_switch[0]
