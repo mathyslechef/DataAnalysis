@@ -47,7 +47,7 @@ print('NOW YOU CAN PULL!')
 print('NOW YOU CAN PULL!')
 
 print(' le chef est nul, à bas la cheffe')
-
+PRINT("Tu es saoul ou quoi ?")
 
 
 
