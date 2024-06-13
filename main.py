@@ -1,5 +1,6 @@
 import learn
 import matplotlib.pyplot as plt
+import pandas as pd
 
 from functions import *
 from my_libraries import *
@@ -38,20 +39,25 @@ plt.hist(y, range = (0, 5), bins = 5, color = 'yellow', edgecolor = 'red')
 plt.grid("true")
 #plt.show()
 
-plt.bar(x, y)
-plt.show()
+#plt.bar(x, y)
+#plt.show()
 
 # coucou Myriam je vois ton code! Mathys fait caca dans ton jardin
 
 
 
 
+#list_var_class = ['Pclass'].
+#print(list_var_class.sort())
 
 
 
 
-
-
+#list_var_class = ['Fare'].unique()
+#print(list_var_class.sort())
+#back to Python training"
+prix_classe_sex = [('Pclass' == 1) & ('Sex' == 'female')].groupby["Survived",'Fare'.mean().rename(columns={'Fare':'Ticket_moyen'})]
+#df.groupby(['Name'])[('Revenue', 'Margin', 'Quanity')].agg(['sum'])
 
 
 
