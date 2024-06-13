@@ -1,6 +1,5 @@
 import learn
 import matplotlib.pyplot as plt
-
 from functions import *
 from my_libraries import *
 from Constants import *
@@ -11,7 +10,8 @@ if __name__ == '__main__':
 
 print('ciao')
 
-DESTINATION_FOLDER = os.path.join(BASE, FOLDER)
+# DESTINATION_FOLDER = os.path.join(BASE, FOLDER)
+DESTINATION_FOLDER = BASE + FOLDER
  # pd.read_csv(f"{data_files}{csv_name}")
 titanic = 'mytitanic.xlsx'
 # ci-dessous = mettre le chemin en dur (Marco )
