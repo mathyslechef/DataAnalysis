@@ -29,4 +29,8 @@ def redefine_order_col(list_col: list, to_switch: list) -> list:
     list_col[pos_2] = first
 
     return list_col
-# Titanic functions
+
+#MYRIAM FONCTIONS
+#Récupérer les valeurs uniques d'une liste (nécessite le module numpy)
+#x = [1,2,3,4,3,2,1]
+#print(np.unique(x))

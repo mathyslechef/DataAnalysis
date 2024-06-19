@@ -5,11 +5,12 @@ import pandas as pd
 from functions import *
 from my_libraries import *
 from Constants import *
+from functions import *
 
 if __name__ == '__main__':
 
-    test = [1, 2, 3, 4, 5]
 
+test = [1, 2, 3, 4, 5]
 print('ciao')
 
 DESTINATION_FOLDER = os.path.join(BASE, FOLDER)
@@ -44,14 +45,8 @@ plt.grid("true")
 
 # coucou Myriam je vois ton code! Mathys fait caca dans ton jardin
 
-
-
-
 #list_var_class = ['Pclass'].
 #print(list_var_class.sort())
-
-
-
 
 #list_var_class = ['Fare'].unique()
 #print(list_var_class.sort())
