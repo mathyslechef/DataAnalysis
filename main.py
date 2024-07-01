@@ -8,13 +8,10 @@ from Constants import *
 from functions import *
 
 if __name__ == '__main__':
-
-
-test = [1, 2, 3, 4, 5]
-print('ciao')
+    testing =[1, 2, 3, 4]
 
 DESTINATION_FOLDER = os.path.join(BASE, FOLDER)
- # pd.read_csv(f"{data_files}{csv_name}")
+# pd.read_csv(f"{data_files}{csv_name}")
 titanic = 'mytitanic.xlsx'
 # ci-dessous = mettre le chemin en dur (Marco )
 data = pd.read_excel(os.path.join(DESTINATION_FOLDER, titanic), index_col=0)
@@ -51,10 +48,24 @@ plt.grid("true")
 #list_var_class = ['Fare'].unique()
 #print(list_var_class.sort())
 #back to Python training"
-prix_classe_sex = [('Pclass' == 1) & ('Sex' == 'female')].groupby["Survived",'Fare'.mean().rename(columns={'Fare':'Ticket_moyen'})]
+#prix_classe_sex = [('Pclass' == 1) & ('Sex' == 'Female')].groupby["Survived",'Fare'.mean().rename(columns={'Fare':'Ticket_moyen'})]
+#print(prix_classe_sex) ??????
 #df.groupby(['Name'])[('Revenue', 'Margin', 'Quanity')].agg(['sum'])
 
 
+Bonjour = "Bonjour, je m'appelle Myriam"
+#print('Bonjour')
+
+#Comment enchainer la requête aprèe avoir saisi la valeur ?#
+nombre = input("Entrer un chiffre : ")
+print(nombre)
+print((type(nombre)))
+#Comment corriger l'erreur ci-dessous ?????"
+
+a = input("Saisir chiffre 1 : ")
+b = input("Saisir chiffre 2 : ")
+c = int(a)+int(b)
+print(c)
 
 
 
