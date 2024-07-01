@@ -60,12 +60,13 @@ Bonjour = "Bonjour, je m'appelle Myriam"
 nombre = input("Entrer un chiffre : ")
 print(nombre)
 print((type(nombre)))
-#Comment corriger l'erreur ci-dessous ?????"
 
 a = input("Saisir chiffre 1 : ")
 b = input("Saisir chiffre 2 : ")
 c = int(a)+int(b)
 print(c)
+
+
 
 
 
